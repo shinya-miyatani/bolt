@@ -61,8 +61,11 @@ h2 {
 }
 
 .head {
+  position: fixed;
+  width: 100%;
   padding: 15px 0;
   background-color: #fff;
+  z-index: 1;
 }
 
 .fa-bolt {
@@ -165,14 +168,36 @@ h2 {
   margin: 40px 0 90px;
 }
 
-.inner1 {
-  margin-bottom: 80px;
-}
-
 .work__box__img {
-  display: block;
+  width: 300px;
+  height: 300px;
   cursor: pointer;
   opacity: .7;
+}
+
+.img6-1 {
+  background-image: url(../img/01.jpg);
+}
+
+.img6-2 {
+  background-image: url(../img/02.jpg);
+}
+
+.img6-3 {
+  background-image: url(../img/03.jpg);
+}
+
+.img6-4 {
+  margin-top: 80px;
+  background-image: url(../img/04.jpg);
+}
+
+.img6-5 {
+  background-image: url(../img/05.jpg);
+}
+
+.img6-6 {
+  background-image: url(../img/06.jpg);
 }
 
 .work__box__img:hover {
@@ -271,10 +296,22 @@ h2 {
 
   .description__txt__desc {
     width: 628px;
-}
+  }
+
+  .work__box {
+    width: 1100px;
+  }
 
   .work__box__img {
     display: inline-block;
+  }
+
+  .center-img {
+    margin: 0 100px;
+  }
+
+  .under-img {
+    margin-top: 80px;
   }
 
   .work__bottom__desc {
@@ -282,7 +319,7 @@ h2 {
     width: 550px;
     margin-right: 90px;
     vertical-align: middle;
-}
+  }
 
   .work__btn {
     display: inline-block;
@@ -311,6 +348,10 @@ h2 {
 @media screen and (min-width: 767px) and (max-width: 1199px) {
   .hamburger-btn {
     display: none;
+  }
+
+  .content--icon {
+    padding: 0;
   }
 }
 
